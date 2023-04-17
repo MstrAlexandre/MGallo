@@ -11,6 +11,8 @@ header {
 
 #main-pic {
   width: 25%;
+  align-items: center;
+  justify-content: center;
   padding-left: 3%;
 }
 
@@ -21,6 +23,7 @@ header {
   width: 100vw;
   align-items: center;
   align-content: center;
+  text-align: center;
   font-size: 16px;
   height: 40px;
   justify-content: center;
