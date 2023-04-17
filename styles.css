@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab');
+
+:root{
+    font-family: 'Roboto Slab';
+    background-color: aliceblue;
+}
+
+header {
+  text-align: center;
+}
+
+#main-pic {
+  width: 25%;
+  padding-left: 3%;
+}
+
+#nav {
+  display: flex;
+  gap: 15px;
+  justify-content: space-between;
+  width: 100vw;
+  align-items: center;
+  align-content: center;
+  font-size: 16px;
+  height: 40px;
+  justify-content: center;
+  vertical-align: middle;
+  border-bottom: 2px double black;
+}
+
+.banner {
+  position: relative;
+  height: 60vh;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin: 3% 10%;
+}
+
+.banner::before {
+  content: "";
+  background-image: url("Assets/StoreFront.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.85;
+}
+
+.banner-text {
+  position: relative;
+  color: whitesmoke;
+  font-size: 40px;
+  line-height: 0.9;
+  text-align: center;
+  text-shadow: 0px 1px 4px black;
+  padding: 5%;
+  font-weight: bold;
+}
+
+.columns {
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+  margin: 10%;
+  text-align: center;
+}
+
+.column {
+  padding: 15px;
+  color: Black;
+  width: 33.33%;
+  flex-shrink: 3;
+  background-color: rgba(212, 205, 205, 0.1);
+  border: 2px outset whitesmoke;
+}
+
+.column h3 {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.colpic {
+  max-width: 100%;
+  max-height: 250px;
+  flex-shrink: 3;
+}
+
+nav a{
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+}
+
+.column a {
+    color: blue;
+    align-self: end;
+    font-size: 14px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 0;
+    justify-content: space-between;
+    text-decoration: overline;
+}
+
+#footpic {
+    max-width: 150px;
+    max-height: 150px;
+}
